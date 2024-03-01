@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "helium",
+  "version": "1.5",
+  "name": "Helium",
+  "description": "A based addon for meteor client.",
+  "authors": [
+    "GwnJoran"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.gwnjoran.helium.Helium"
+    ]
+  },
+  "mixins": [
+    "helium.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=1.19.4",
+    "meteor-client": "*"
+  }
+}
