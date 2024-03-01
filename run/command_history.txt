@@ -1,0 +1,3 @@
+/give @a minecraft:item_frame
+/give Player636 minecraft:diamond
+/give @a minecraft:diamond 63
