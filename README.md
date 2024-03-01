@@ -14,3 +14,5 @@ open the folder in command prompt and type "./gradlew build"
 
 
 if you want to change the version that it recompiles to then go to gradle.properties and change the minecraft version, yarn mappins and meteor version to the version that you want.
+
+NOTE: meteor version MUST be inbetween 0.5.3 and 0.5.6-SNAPSHOT
