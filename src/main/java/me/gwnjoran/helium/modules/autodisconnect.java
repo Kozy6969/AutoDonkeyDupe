@@ -16,7 +16,7 @@ import net.minecraft.network.packet.c2s.play.PlayerInteractEntityC2SPacket;
 import net.minecraft.entity.passive.AbstractDonkeyEntity;
 import net.minecraft.text.Text;
 import meteordevelopment.meteorclient.utils.player.PlayerUtils;
-import net.minecraft.network.packet.s2c.play.DisconnectS2CPacket;
+import net.minecraft.network.packet.s2c.common.DisconnectS2CPacket;
 public class autodisconnect extends Module {
     public autodisconnect() {
         super(Helium.CATEGORY, "discconetingfromthegame", "im gonna kill mussyeyelslellflflflfl");
