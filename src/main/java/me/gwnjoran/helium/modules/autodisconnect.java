@@ -19,7 +19,7 @@ import meteordevelopment.meteorclient.utils.player.PlayerUtils;
 import net.minecraft.network.packet.s2c.common.DisconnectS2CPacket;
 public class autodisconnect extends Module {
     public autodisconnect() {
-        super(Helium.CATEGORY, "discconetingfromthegame", "im gonna kill mussyeyelslellflflflfl");
+        super(Helium.CATEGORY, "discconetingfromthegame", "auto disconnects");
     }
             private final SettingGroup sgGeneral = settings.getDefaultGroup();
 
@@ -55,7 +55,7 @@ public class autodisconnect extends Module {
         if (hose != null) {
 if (timer <= 0) {
 mc.getNetworkHandler().sendPacket(PlayerInteractEntityC2SPacket.interact(hose, false, mc.player.getActiveHand()));
-mc.player.networkHandler.onDisconnect(new DisconnectS2CPacket(Text.literal(String.format("[§dAuto Leaeve§r] real i hate niggers"))));
+mc.player.networkHandler.onDisconnect(new DisconnectS2CPacket(Text.literal(String.format("left because ur hunger was low (real)"))));
 timer = delay.get();
 }
 else{
