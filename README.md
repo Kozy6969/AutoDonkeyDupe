@@ -8,3 +8,5 @@ on the second account use Ride Donkey (or auto mount), Auto Disconnect (disconec
 
 the delays on each module are different depending on ur hardware, ping and other factors so just try to find the perfect delay for every module
 
+# video tutorial
+https://www.youtube.com/watch?v=Dy4MGkpDNCM
